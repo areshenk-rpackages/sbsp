@@ -6,7 +6,7 @@ Author: Corson N. Areshenkoff
 Maintainer: Corson N. Areshenkoff <areshenk@protonmail.com>
 Description: Means, estimation, and operations on Grassmann manifolds.
 Depends: R (>= 3.0.2),
-Imports: 
+Imports: pracma
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

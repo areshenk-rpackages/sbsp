@@ -10,8 +10,8 @@
 sbsp.expmap <- function(x, p = NULL){
 
     fit <- svd(x)
-    K <- p %*% fit$v %*% diag(cos(fit$d)) %*% t(fit$v) +
-        fit$u %*% diag(sin(fit$d)) %*% t(fit$v)
+    K <- p %*% fit$v %*% diag2(cos(fit$d)) %*% t(fit$v) +
+        fit$u %*% diag2(sin(fit$d)) %*% t(fit$v)
     return(qr.Q(qr(K)))
 
 }

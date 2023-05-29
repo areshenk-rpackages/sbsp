@@ -15,5 +15,5 @@ sbsp.interpolate <- function(x, y, t){
         (y %*% solve(t(x) %*% y))
     fit <- svd(K)
     theta <- atan(fit$d)
-    return(x %*% fit$v %*% diag(cos(theta * t)) + fit$u %*% diag(sin(theta * t)))
+    return(x %*% fit$v %*% diag2(cos(theta * t)) + fit$u %*% diag2(sin(theta * t)))
 }
