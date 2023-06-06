@@ -5,7 +5,7 @@
 #' @param x,y Real matrices
 #' @export
 
-ComputePrincipalAngles <- function(x, y){
+ComputePrincipalAngles <- function(x, y, return.dims = F){
 
     # Orthonormal bases for x and y
     x.U <- svd(x)$u
@@ -37,6 +37,10 @@ ComputePrincipalAngles <- function(x, y){
     sigma[sigma > 1] <- 1
     sigma[sigma < -1] <- -1
     mu_arcsin[mask] <- acos(sigma[mask])
+
+    if(return.dims) {
+
+    }
 
     return(mu_arcsin)
 }

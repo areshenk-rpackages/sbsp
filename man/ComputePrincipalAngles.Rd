@@ -4,7 +4,7 @@
 \alias{ComputePrincipalAngles}
 \title{Principal angles between subspaces}
 \usage{
-ComputePrincipalAngles(x, y)
+ComputePrincipalAngles(x, y, return.dims = F)
 }
 \arguments{
 \item{x, y}{Real matrices}

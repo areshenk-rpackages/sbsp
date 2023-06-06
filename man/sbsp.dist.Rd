@@ -17,7 +17,7 @@ Function implements several distance measures between subspaces.
 \details{
 Allowable distance measures are
 \itemize{
- \item{"grassmann": }{The geodesic distance on the Grassmann manifold.}
- \item{"fs": }{The Fubini-Study metric}
+ \item{"grassmann": }{The geodesic distance on the Grassmann manifold Gr(k,n).}
+ \item{"grinf": }{A distance measure on the doubly infinite Grassmann manifold of subspaces of any dimension.}
 }
 }
