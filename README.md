@@ -1,3 +1,3 @@
 # sbsp <img src='man/figures/logo.png' align="right" height="138.5" />
 
-The **sbsp** package contains routines for the analysis of subspace-valued data -- that is, observations lying on a Grassmann manifold. The package
+The **sbsp** package contains routines for the analysis of subspace-valued data -- that is, observations lying on a Grassmann manifold. The package is in early progress, and is intended as a spiritual twin of the package [spdm](https://github.com/areshenk-rpackages/spdm), which contains methods for working with data on the manifold of covariance matrices. It is, as yet, undocumented, although the functions which are so far implemented are in direct correspondence with functions in spdm, and so the [documentation](https://areshenk-rpackages.github.io/spdm/) for that package may be helpful.
